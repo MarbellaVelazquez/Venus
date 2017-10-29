@@ -3,6 +3,18 @@
     height: 50%;
     float: left
 }
+.Logo{
+    margin-left: 1%;
+    float: left;
+}
+.Venus{
+    padding-top: 13px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.Logo img {
+    height: 50px;
+}
 .btnDerecha{
     float: right;
     margin-right: 10%
