@@ -52,6 +52,11 @@ button{
     margin: auto;
     background-color: rgba(158, 47, 86, 0);
     color: rgba(255, 255, 255, 0.52);
+    transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+}
+button:hover {
+    background-color: rgb(231, 142, 133);
+    transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
 }
 input{
     width: 100%;
@@ -64,6 +69,23 @@ input{
     background-color: rgba(158, 47, 86, 0);
     font-size: 20px;
     padding: 5px;
+    border-radius: 2px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.52);
+}
+.sesenta{
+    height: 60%
+}
+.R{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.52);
+    margin-bottom: 8%;
+    font-family: 'Raleway', sans-serif;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: rgba(158, 47, 86, 0);
+    font-size: 18px;
+    padding: 2px;
     border-radius: 2px;
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.52);
 }
